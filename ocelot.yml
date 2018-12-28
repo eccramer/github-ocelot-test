@@ -1,0 +1,12 @@
+image: docker
+buildTool: docker 
+branches:
+  - master
+env: []
+stages:
+  - name: "Test"
+    trigger: 
+      branches: []
+    script:
+        - echo "Hello, World!"
+    env: []
